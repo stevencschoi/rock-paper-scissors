@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/86ffe6f375.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <title>Rock Paper Scissors!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="wrapper">
+    <header>
+        <h1>Rock, Paper, Scissors!</h1>
+        <p>Experience the emotional roller coaster of the world's most dangerous game!</p>
+    </header>
+
+    <section class="game-content">
+        <form action="#" method="#" class="rock-paper-scissors" name="rock-paper-scissors">
+            <h2>Choose your weapon:</h2>
+            <div class="select">
+                <div class="radio">
+                    <input type="radio" name="game" value="rock" id="rock">
+                    <label for="rock"><i class="far fa-hand-rock"></i> Rock</label>
+                    <img src="" alt="">
+                </div>
+                <div class="radio">
+                    <input type="radio" name="game" value="paper" id="paper">
+                    <label for="paper"><i class="far fa-hand-paper"></i> Paper</label>
+                </div>
+                <div class="radio">
+                    <input type="radio" name="game" value="scissors" id="scissors">
+                    <label for="scissors"><i class="far fa-hand-scissors"></i> Scissors</label>
+                </div>
+            </div>
+            <div class="submit">
+                <input type="submit" value="submit">
+            </div>
+        </form>
+        <p><span class="result-user"></span></p>
+        <p><span class="result-cpu"></span></p>
+        <p><span class="commentary">What does your future hold?</span></p>
+    </section>
+
+    <section class="counter">
+        <h2>Scoreboard:</h2>
+        <h3>Wins: <span class="wins">0</span></h3>
+        <h3>Losses: <span class="losses">0</span></h3>
+        <h3>Ties: <span class="ties">0</span></h3>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="script2.js"></script>
+</body>
+</html>
